@@ -1,0 +1,7 @@
+{
+  "JDK": "The JDK also Java Development Kit, a set of tools to develop Java Applications and Librarys. Contains JRE",
+  "JRE": "The JRE also Java Runtime Environment, a set of tools to run Java Applications",
+  "JVM": "The JVM also Java Virtual Machine, the Virtual Machine Isolating Java Applications from the Outside, and the other way around. Interprets Java Bytecode generated JIT",
+  "JIT": "The JIT also Just In Time, Also the  type of the Compiler/Interpreter used to compile/intrepret Java Code to Java Bytecode, to be executed by the JVM",
+  "JAR": "A JAR is a file ending, the files are essentially a Zip file containting a Manifest and the Java code. Can be run by the JRE"
+}
