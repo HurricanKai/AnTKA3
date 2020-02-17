@@ -1,7 +1,7 @@
 package org.kaij.BeraterUI;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
@@ -22,6 +22,11 @@ public class MainController {
     private void handleInput()
     {
         String msg = input.textProperty().getValue();
+
+        if (msg.contentEquals("ade")) {
+            Platform.exit();
+        }
+
         input.textProperty().setValue("");
 
         history.appendText("Du: " + msg + "\n");
