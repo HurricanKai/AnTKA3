@@ -31,6 +31,12 @@ public class MainController {
 
         history.appendText("Du: " + msg + "\n");
         var result = questionMatcher.match(msg);
+
+        if (result == null)
+        {
+            result = "Sorry, I did not understand, try phrasing that differently or ask me something else!";
+        }
+
         history.appendText("Berater: " + result + "\n");
     }
 }
